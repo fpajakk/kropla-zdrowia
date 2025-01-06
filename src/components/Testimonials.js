@@ -11,7 +11,7 @@ const query = graphql`
       nodes {
         image {
           fluid {
-            ...GatsbyContentfulFluid
+            ...GatsbyImageSharpFluid
           }
         }
         name

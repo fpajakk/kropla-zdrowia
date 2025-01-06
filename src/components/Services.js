@@ -19,7 +19,7 @@ const query = graphql`
         }
         image {
           fluid(maxWidth: 4000, quality: 100) {
-            ...GatsbyContentfulFluid
+            ...GatsbyImageSharpFluid
           }
         }
       }

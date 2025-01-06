@@ -37,7 +37,7 @@ const query = graphql`
         duration
         logo {
           fluid(quality: 100) {
-            ...GatsbyContentfulFluid
+            ...GatsbyImageSharpFluid
           }
         }
         price

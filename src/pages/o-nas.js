@@ -21,7 +21,7 @@ const query = graphql`
       nodes {
         image {
           fluid(quality: 100, maxWidth: 4000) {
-            ...GatsbyContentfulFluid
+            ...GatsbyImageSharpFluid
           }
         }
         description {

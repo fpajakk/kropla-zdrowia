@@ -72,7 +72,7 @@ const query = graphql`
         }
         image {
           fluid(quality: 100) {
-            ...GatsbyContentfulFluid
+            ...GatsbyImageSharpFluid
           }
         }
         location {
