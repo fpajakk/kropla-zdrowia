@@ -31,6 +31,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-smoothscroll`,
+    'gatsby-plugin-image',
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
